@@ -1,0 +1,56 @@
+{
+  "name": "michaelmanhire.com",
+  "private": true,
+  "description": "A Gatsby blog for michaelmanhire.com",
+  "version": "0.1.0",
+  "author": "Michael Manhire <michaelmanhire@gmail.com>",
+  "dependencies": {
+    "@fontsource/inter": "^4.0.1",
+    "@headlessui/react": "^0.2.0",
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.1.0",
+    "gatsby": "^2.26.1",
+    "gatsby-image": "^2.5.0",
+    "gatsby-plugin-feed": "^2.7.0",
+    "gatsby-plugin-google-analytics": "^2.5.0",
+    "gatsby-plugin-manifest": "^2.6.1",
+    "gatsby-plugin-offline": "^3.4.0",
+    "gatsby-plugin-postcss": "^3.4.0",
+    "gatsby-plugin-react-helmet": "^3.4.0",
+    "gatsby-plugin-sharp": "^2.8.0",
+    "gatsby-remark-copy-linked-files": "^2.4.0",
+    "gatsby-remark-images": "^3.5.1",
+    "gatsby-remark-prismjs": "^3.7.0",
+    "gatsby-remark-responsive-iframe": "^2.5.0",
+    "gatsby-remark-smartypants": "^2.4.0",
+    "gatsby-source-filesystem": "^2.5.0",
+    "gatsby-transformer-remark": "^2.10.0",
+    "gatsby-transformer-sharp": "^2.6.0",
+    "postcss": "^8.2.1",
+    "prismjs": "^1.22.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "tailwindcss": "^2.0.2",
+    "typescript": "^4.1.3"
+  },
+  "homepage": "https://github.com/MichaelManhire/michaelmanhire.com",
+  "bugs": {
+    "url": "https://github.com/MichaelManhire/michaelmanhire.com/issues",
+    "email": "michaelmanhire@gmail.com"
+  },
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelManhire/michaelmanhire.com.git"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  }
+}
